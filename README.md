@@ -17,6 +17,18 @@ First of all, you will need to clone this repository:
 $ git clone https://github.com/lcbm/cs-graph-theory.git
 ```
 
+Now, choose one of the [workspaces](#-workspaces) listed below, to start working in. Within each one, you'll find their own documentation - with requirements, usage instructions and everything else that you'll need, to start working.
+
+```bash
+$ cd <path/to/cs-graph-theory/workspace>
+```
+
+## 👩‍💻 Workspaces
+
+### `/go`
+
+This folder contains all of the course's exercises that were implemented in [Golang](https://golang.org). Also, exercises with the same scope will be under the same subfolder (e.g. all `graph` exercises will be under `/go/graph` and all `tree` exercises will be under `tree`). Feeling curious? Click [here](https://youtu.be/spKM5CyBwJA) to find out why!
+
 ## 🤝 Contributing
 
 We are always looking for contributors of **all skill levels**! If you're looking to ease your way into the project, try out a [good first issue](https://github.com/lcbm/dotfiles/labels/good%20first%20issue).

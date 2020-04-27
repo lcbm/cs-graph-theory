@@ -15,24 +15,6 @@ var (
 	ErrEdgeExists = errors.New("edge already exists, try a different label")
 )
 
-// Graph ...
-type Graph struct {
-	Vertices map[*Vertex]struct{}
-	Edges    map[*Edge]struct{}
-}
-
-// Vertex ...
-type Vertex struct {
-	Label string
-}
-
-// Edge ...
-type Edge struct {
-	From   *Vertex
-	To     *Vertex
-	Weight int
-}
-
 // NewGraph ...
 func NewGraph() *Graph {
 	return &Graph{
