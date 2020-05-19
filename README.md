@@ -29,6 +29,10 @@ $ cd <path/to/cs-graph-theory/workspace>
 
 This folder contains all of the course's exercises that were implemented in [Golang](https://golang.org). Also, exercises with the same scope will be under the same subfolder (e.g. all `graph` exercises will be under `/go/graph` and all `tree` exercises will be under `tree`). Feeling curious? Click [here](https://youtu.be/spKM5CyBwJA) to find out why!
 
+### `/pyspark`
+
+This folder contains all of the course's exercises that were implemented using [Apache PySpark](https://spark.apache.org/docs/latest/api/python/index.html). In addition to Apache Pyspark, [GraphFrames](https://graphframes.github.io/graphframes/docs/_site/index.html) was also used during these exercises.
+
 ## 🤝 Contributing
 
 We are always looking for contributors of **all skill levels**! If you're looking to ease your way into the project, try out a [good first issue](https://github.com/lcbm/dotfiles/labels/good%20first%20issue).

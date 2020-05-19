@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  pyspark-notebook:
+    image: cesarschool/pyspark-notebook
+    hostname: pyspark_notebook
+    container_name: pyspark_notebook
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8888:8888
+    environment:
+      - SPARK_LOCAL_IP=localhost
+    volumes:
+      - .:/home/jovyan/work
+    command: start-notebook.sh --NotebookApp.token=''
+
+volumes:
+  pyspark-notebook: ~
